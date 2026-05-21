@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscientização e Ação | Cartilha Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-overlay">
+            <h1>Violência contra a Mulher: <br><span>O que você precisa saber</span></h1>
+            <p class="subtitle">Um guia completo sobre direitos, formas de abuso e como romper o ciclo.</p>
+            <div class="team-badge">Projeto por: Arthur Presbitero, Luiz Veras, Allan Guilherme e Dante Limax</div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="content-section">
+            <h2><i class="fas fa-book-open"></i> O que é a Violência de Gênero?</h2>
+            <div class="text-block">
+                <p>A violência contra a mulher não é um evento isolado ou um "descontrole emocional" passageiro. Ela é um fenômeno social e estrutural baseado na desigualdade de poder. É qualquer ação ou omissão baseada no gênero que cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial.</p>
+                <p>Ela ocorre tanto no âmbito <strong>doméstico</strong> (dentro de casa) quanto na <strong>unidade familiar</strong> ou em qualquer <strong>relação interpessoal</strong> de afeto, independentemente de coabitação. Entender isso é fundamental para perceber que o agressor, muitas vezes, é alguém próximo e de confiança.</p>
+            </div>
+        </section>
+
+        <section class="content-section interactive-box">
+            <h2><i class="fas fa-sync-alt"></i> Entenda o Ciclo da Violência</h2>
+            <p>Muitas pessoas perguntam: <em>"Por que ela não vai embora?"</em>. A resposta está no Ciclo da Violência de Lenore Walker. Clique nas fases abaixo para entender:</p>
+            
+            <div class="cycle-grid">
+                <div class="cycle-step" onclick="showCycle(1)">
+                    <span class="step-num">1</span>
+                    <h3>Aumento da Tensão</h3>
+                </div>
+                <div class="cycle-step" onclick="showCycle(2)">
+                    <span class="step-num">2</span>
+                    <h3>Ato de Violência</h3>
+                </div>
+                <div class="cycle-step" onclick="showCycle(3)">
+                    <span class="step-num">3</span>
+                    <h3>Lua de Mel</h3>
+                </div>
+            </div>
+            <div id="cycle-display" class="display-panel">
+                <p>Selecione uma fase acima para ler a explicação detalhada.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2><i class="fas fa-gavel"></i> As 5 Formas de Violência (Lei 11.340)</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Violência Física</button>
+                    <div class="accordion-body">
+                        <p>Entendida como qualquer conduta que ofenda a integridade ou saúde corporal da mulher. Exemplos: Espancamento, sacudir, morder, queimar, tortura ou uso de armas.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Violência Psicológica</button>
+                    <div class="accordion-body">
+                        <p>Considerada por especialistas como uma das mais danosas, pois é "silenciosa". Inclui humilhação, isolamento (proibir de ver amigos/família), vigilância constante, insultos e chantagem.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Violência Sexual</button>
+                    <div class="accordion-body">
+                        <p>Qualquer conduta que a constranja a presenciar, a manter ou a participar de relação sexual não desejada mediante intimidação, ameaça, coação ou uso da força.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Violência Patrimonial</button>
+                    <div class="accordion-body">
+                        <p>Configura-se na retenção, subtração, destruição parcial ou total de seus objetos, instrumentos de trabalho, documentos pessoais ou bens.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Violência Moral</button>
+                    <div class="accordion-body">
+                        <p>Entendida como qualquer conduta que configure calúnia (acusar de crime), difamação (queimar a reputação) ou injúria (ofender a honra).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section myths">
+            <h2>Mito vs. Verdade</h2>
+            <div class="myth-item">
+                <p class="myth-tag">Mito:</p>
+                <p>"Em briga de marido e mulher, não se mete a colher."</p>
+                <p class="truth-tag">Verdade:</p>
+                <p>A violência contra a mulher é um crime e uma violação dos direitos humanos. Deve-se intervir, denunciar e acolher a vítima.</p>
+            </div>
+        </section>
+
+        <section class="emergency-footer">
+            <h2>Precisa de ajuda agora?</h2>
+            <div class="btn-group">
+                <a href="tel:180" class="btn-main pulse"><i class="fas fa-phone"></i> Central de Atendimento (180)</a>
+                <a href="tel:190" class="btn-sub"><i class="fas fa-shield-alt"></i> Polícia Militar (190)</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido para fins educacionais e conscientização social.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
